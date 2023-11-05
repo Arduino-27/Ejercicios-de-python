@@ -1,0 +1,64 @@
+print("Bienvenido, para conocer tu signo zodiacal te pediremos la siguiente información")
+dia=int(input("Día de nacimiento:\n"))
+mes=input("Mes de nacimiento:\n")
+
+if dia >= 22 and mes == "diciembre" or dia <=19 and mes =="enero":
+  print("""
+  Eres Capricornio, como Jesucristo, Ricky Martin y Diego Luna:
+  Trabajador, responsable, fiel, cuentas con mucha 
+  paciencia y resistencia.
+  Adoras la organización y el orden.
+  Eres compatible con Virgo y Tauro
+  """)
+elif dia >= 20 and mes == "enero" or dia <=18 and mes =="febrero":
+  print(""" Eres Acuario como Harry Styles, Shakira y más importante como Mía Xochicalli:
+  Eres simpático, original, independiente, humanitario, independiente e inteletual.
+  Los Acuario suelen ser fantasiosos, pensativos y les encanta ayudar a los demás.
+  Es compatible con Cáncer, Escorpio y Piscis.
+  """)
+elif dia >= 19 and mes == "febrero" or dia <=20 and mes =="marzo":
+  print("""Eres Piscis como Chespirito y Victor Hugo:
+  Son personas muy cariñosas, por norma general, calmadas e intuitivas. Además, tienen muchísima imaginación, lo que les hará buenos en tareas relacionadas con las artes, aunque les abstraerá del mundo real más de lo que sería conveniente en determinadas ocasiones. Confían mucho en su instinto y su intuición.
+  Compatibilidad con Aries, Géminis y Libra.
+  """)
+elif dia >= 21 and mes == "marzo" or dia <=19 and mes =="abril":
+  print("""Eres Aries como Anya Taylor-Joy y Luis Miguel:
+  Un Aries es una persona llena de energía y entusiasmo. Pionero y aventurero, le encantan los retos, la libertad y las nuevas ideas. A los Aries les gusta liderar y prefieren dar instrucciones a recibirlas. Son independientes y preocupados por su propia ambición y objetivos.
+  Eres extremadamente sexual.
+  Compatibilidad Géminis y Acuario
+  """)
+elif dia >= 20 and mes == "abril" or dia <=20 and mes =="mayo":
+  print("""Eres Tauro como Droshita y Dicer:
+  Un Tauro suele ser práctico, decidido y tener una gran fuerza de voluntad. Los Tauro son personas estables y conservadores, seguirán de forma leal un líder en el que tienen confianza. Les encanta la paz y tranquilidad y son muy respetuosos con las leyes y las reglas.
+  Compatibilidad con Aries y Cáncer.""")
+elif dia >= 21 and mes == "mayo" or dia <=20 and mes =="junio":
+  print("""Eres Geminis como mi ex y mi ex alumna, el peor signo y lo sabes, no te diré más.
+  """)
+elif dia >= 21 and mes == "junio" or dia <=22 and mes =="julio":
+  print("""Eres Cáncer como Ariana Grande y El Mayor: 
+  Las personas de este signo pueden ser difíciles de conocer. Son muy emocionales y sensibles, y se preocupan profundamente por los asuntos de la familia y del hogar.
+  Compatibilidad con Virgo y Tauro.
+  """)
+elif dia >= 23 and mes == "julio" or dia <=22 and mes =="agosto":
+  print("""Eres Leo, el mejor signo:
+  Los Leo son personas que son nobles y orgullosas, y al mismo tiempo son líderes natos que desde su nacimiento son fuertes, ambiciosos e independientes, unas características y rasgos de su personalidad que les hacen conseguir aquello que se proponen en la mayoría de las ocasiones.
+  Compatibilidad con Escorpio y Acuario
+  """)
+elif dia >= 23 and mes == "agosto" or dia <=22 and mes =="septiembre":
+  print("""Eres Virgo, como las fiestas patrias:
+  Virgo es un signo mutable y de tierra; representado por una virgen, es un signo caracterizado por su espíritu crítico, precisión, reserva, paciencia y convencionalismo. También es lógico, metódico y aplicado, le gusta aprender y es capaz de analizar las situaciones más complejas con una claridad pasmosa.
+  Tauro, Cáncer y Capricornio
+  """)
+elif dia >= 23 and mes == "septiembre" or dia <=22 and mes =="octubre":
+  print("""Eres Libra como Wismichu, Rosaía y Sebastían Yatra:
+  Libra es un signo cardinal y de aire, se encuentra además entre los signos más refinados del zodíaco; tiene elegancia, encanto, diplomacia y buen gusto, ama la belleza, es muy curioso por naturaleza y odia los conflictos. Sus puntos negativos a veces son la frivolidad y un carácter voluble.
+  Compatibilidad con Capricornio y Cáncer.
+  """)
+elif dia >= 23 and mes == "octubre" or dia <=21 and mes =="noviembre":
+  print("""Eres Escorpio, como mi abuelita La Mayora:
+  Escorpio es un signo fijo y de agua; su potencia y energía emocional son únicas en todo el zodíaco. Tiene mucha imaginación e intuición, además de una gran capacidad para el análisis, fuerza de voluntad y firmeza, aunque también es muy sensible y emocional consigo mismo y con el entorno.
+  Compatibilidad con Leo, Piscis y Tauro""")
+elif dia >= 22 and mes == "noviembre" or dia <=21 and mes =="diciembre":
+  print("""Eres Sagitario como Jesus, mi amigo
+  Los Sagitario tienden a decir exactamente lo que piensan, y tienen fuertes creencias que les apasionan. A este signo del zodiaco le gusta compartir su conocimiento e ideas con la gente y sentirse valorado por eso. Sin embargo, deben tener cuidado de no imponer sus opiniones a los demás.
+  Compatibilidad con Acuario y Libra.""")
