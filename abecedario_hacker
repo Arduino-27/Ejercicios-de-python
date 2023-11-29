@@ -1,0 +1,9 @@
+import random
+import abecedario
+
+while True:
+  palabra= input("\nEscribe algo\n")
+  oracion = abecedario.abece()
+  for letra in palabra.upper():
+    if letra in oracion:
+      print(random.choice(oracion[letra]), end =" ")
